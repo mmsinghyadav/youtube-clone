@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Outfit:wght@100;700&family=Poppins:wght@200;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2744b1a7d7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- ------------sidebar----------- -->
+    <div class="side-transition">
+        <div class="side-display">
+            <div class="sidebar">
+                <div class="nav-left div-flex side-logo">
+                    <span class="circle"><i class="fa-solid fa-bars side-menu hover"></i></span>
+                    <img src="image/download.png" alt="youtube-logo" class="logo">
+                </div>
+                <div class="left-icon-div side-icon active-icon">
+                    <img src="image/dark-home.png" alt="home-icon">
+                    <img src="image/home1.png" class="light-image" alt="home-icon">
+                    <p>Home</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/short.png" alt="home-icon" class="short-img">
+                    <!-- <img src="image/short-dark.png" class="light-image" alt="home-icon"> -->
+                    <p>Shorts</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/suscribe.png" alt="home-icon">
+                    <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                    <p>Subscriptions</p>
+                </div>
+                <hr>
+                <div class="left-icon-div side-icon you">You &nbsp;&gt;</div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/channel.png" alt="home-icon">
+                    <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                    <p>Your Channel</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/history.png" alt="home-icon">
+                    <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                    <p>History</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/video.png" alt="home-icon">
+                    <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                    <p>Your Videos</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/timer.png" alt="home-icon">
+                    <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                    <p>Watch Later</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/download-icon.png" alt="home-icon">
+                    <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                    <p>Downloads</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/down-arrow.png" alt="home-icon">
+                    <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                    <p>Show More</p>
+                </div>
+                <hr>
+                <div class="left-icon-div side-icon you">Subscriptions</div>
+                <div class="left-icon-div side-icon">
+                    <img src="image/user.jpg" alt="home-icon" class="logo-img">
+                    <p>Mahendra Mohan</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="https://yt3.ggpht.com/ytc/APkrFKZShjkT_zCAjipListTmmfNvpCrI1vz5FWZywkmYw=s68-c-k-c0x00ffffff-no-rj"
+                        alt="home-icon" class="logo-img">
+                    <p>Akshay Saini</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="https://yt3.ggpht.com/nTK6AFZrpjDHKNIHq0zqjkWCs3jm9ttQBAGOfIui0zlz_gQzeqAIOtQKfzbSUIA0Mu15HBDfCg=s88-c-k-c0x00ffffff-no-rj"
+                        alt="home-icon" class="logo-img">
+                    <p>Think School</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="https://yt3.ggpht.com/sNTXQbT-tVdQ-D92xTN4iIfRoHPeh2geQRN8QSL-It07X8Zuy4WPhuUTQm9nZ11-MoOh_qbvyg=s68-c-k-c0x00ffffff-no-rj"
+                        alt="home-icon" class="logo-img">
+                    <p>Raj Shamani</p>
+                </div>
+                <div class="left-icon-div side-icon">
+                    <img src="https://yt3.ggpht.com/-ZLz5qtYId99_zMI7y9I2fGsyjgxjYwRBGJRKM-k0KpYXv3lr8_QPs_N3vB1HE43ZaGzmrDm=s88-c-k-c0x00ffffff-no-rj"
+                        alt="home-icon" class="logo-img">
+                    <p>Ansh Mehra</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-container">
+        <nav>
+            <div class="nav-left div-flex">
+                <span class="circle"><i class="fa-solid fa-bars hover"></i></span>
+                <img src="image/download.png" alt="youtube-logo" class="logo">
+            </div>
+            <div class="nav-middle div-flex">
+                <div class="searchbox div-flex">
+                    <input type="text" placeholder="Search" class="search-bar">
+                </div>
+                <span><i class="fa-solid fa-magnifying-glass search-btn"></i></span>
+                <div class="circle none"></span><i class="fa-solid fa-microphone hover"></i></div>
+
+            </div>
+            <div class="nav-right div-flex">
+                <div><img src="image/download (2).png" alt="create" class="create circle"></div>
+                <span class="circle none"><i class="fa-regular fa-bell hover"></i></span>
+                <span><i class="fa-solid fa-magnifying-glass search-btn"></i></span>
+                <img src="image/user.jpg" alt="user-logo" class="user-logo">
+            </div>
+        </nav>
+
+        <!-- ---------------left section------------ -->
+
+        <main class="main-left">
+            <div class="left-icon-div">
+                <img src="image/dark-home.png" alt="home-icon">
+                <img src="image/home1.png" class="light-image" alt="home-icon">
+                <p>Home</p>
+            </div>
+            <div class="left-icon-div">
+                <img src="image/short.png" alt="home-icon" class="short-img">
+                <!-- <img src="image/short-dark.png" class="light-image" alt="home-icon"> -->
+                <p>Shorts</p>
+            </div>
+            <div class="left-icon-div">
+                <img src="image/suscribe.png" alt="home-icon">
+                <img src="image/suscribe-dark.png" class="light-image" alt="home-icon">
+                <p>Subscriptions</p>
+            </div>
+            <div class="left-icon-div">
+                <img src="image/playlist.png" alt="home-icon">
+                <img src="image/playlist-dark.png" class="light-image" alt="home-icon">
+                <p>You</p>
+            </div>
+            <div class="left-icon-div">
+                <img src="image/download-icon.png" alt="home-icon">
+                <!-- <img src="image/playlist-dark.png" class="light-image" alt="home-icon"> -->
+                <p>Downloads</p>
+            </div>
+        </main>
+
+        <!-- -------- suggestion section-------------- -->
+        <section class="suggestion">
+            <div class="box active">
+                <p>All</p>
+            </div>
+            <div class="box">
+                <p>HTML</p>
+            </div>
+            <div class="box">
+                <p>CSS</p>
+            </div>
+            <div class="box">
+                <p>Web Development</p>
+            </div>
+            <div class="box">
+                <p>JavaScript</p>
+            </div>
+            <div class="box">
+                <p>React</p>
+            </div>
+            <div class="box">
+                <p>Song</p>
+            </div>
+            <div class="box">
+                <p>Music</p>
+            </div>
+            <div class="box">
+                <p>Mixes</p>
+            </div>
+            <div class="box">
+                <p>Indian pop music</p>
+            </div>
+            <div class="box">
+                <p>Recently Uploaded</p>
+            </div>
+            <!-- <div class="box">
+                <p>Comedy</p>
+            </div> -->
+        </section>
+        <section class="video-card-container">
+
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
