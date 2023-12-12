@@ -2,7 +2,6 @@
 
 This project is a comprehensive clone of the YouTube landing page, meticulously crafted with HTML, CSS, and JavaScript. It features a fully responsive design to ensure an optimal viewing experience across a wide range of devices, including desktops, tablets, and smartphones. The clone includes a functional video section with playback capabilities and a dynamic search box with live suggestions.
 
-![YouTube Landing Page Clone Screenshot](youtube-clone.png)
 
 ## Demo
 
